@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sign-in, .sign-up {
+  border: 1px solid #e1e1e1;
+  padding: 14px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign-in h1, .sign-up h2 {
+  margin: 15px 0;
+  font-size: 25px;
+}
