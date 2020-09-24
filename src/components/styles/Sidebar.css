@@ -3,6 +3,7 @@
     background-color: var(--slack-color);
     border: 1px solid #49274f;
     max-width: 260px;
+    flex: 0.3;
 }
 
 .sidebar > hr {

@@ -11,16 +11,15 @@ function App() {
       <BrowserRouter>
         <Header />
         <div className="app_body">
-          <Sidebar>
+          <Sidebar />
           <Switch>
-            <Route path="channel/:channelId">
+            <Route path="/channel/:channelId">
               <Chat />
             </Route>
             <Route path="/">
               <h1>Welcome</h1>
             </Route>
           </Switch>
-          </Sidebar>
         </div>
         {/* Routing */}
       </BrowserRouter>
